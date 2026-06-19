@@ -1,0 +1,38 @@
+{
+  "collections": {
+    "users": {
+        "xp": "number",
+        "level": "number",
+        "badges": "array",
+        "currentStreak": "number",
+        "longestStreak": "number",
+        "phone": "string",
+        "targetBand": "number",
+        "academicType": "string",
+        "lastCheckIn": "timestamp",
+        "subscriptionStatus": "string"
+    },
+    "community_posts": {
+        "userId": "string",
+        "userName": "string",
+        "bandScore": "number",
+        "content": "string",
+        "likes": "number",
+        "timestamp": "timestamp"
+    },
+    "mock_tests": {
+        "userId": "string",
+        "scores": "object",
+        "overallBand": "number",
+        "timestamp": "timestamp",
+        "type": "string"
+    },
+    "practice_results": {
+        "userId": "string",
+        "module": "string",
+        "score": "number",
+        "timestamp": "timestamp",
+        "data": "object"
+    }
+  }
+}

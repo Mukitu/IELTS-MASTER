@@ -1,0 +1,11 @@
+{
+  "name": "IELTS Master BD",
+  "description": "AI-powered IELTS preparation for Bangladeshi students, featuring Duolingo-style learning and mock exam simulations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
